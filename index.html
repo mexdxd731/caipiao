@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#1f2a44">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>彩票预测</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <h1>彩票预测</h1>
+    <div class="meta-info" id="metaInfo">加载中…</div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button data-game="ssq"  class="active">双色球</button>
+    <button data-game="dlt">大乐透</button>
+    <button data-game="pl5">排列五</button>
+    <button data-game="all">一起去打票</button>
+  </nav>
+
+  <main class="content">
+    <section class="rule" id="rule">— —</section>
+
+    <section class="predict-card">
+      <div class="predict-title">推荐号码</div>
+      <div class="ball-area" id="balls"></div>
+      <div class="actions">
+        <button id="genBtn" class="primary">生成推荐</button>
+        <button id="refreshBtn" class="ghost">刷新数据</button>
+      </div>
+    </section>
+
+    <section class="stats" id="statsSection">
+      <div class="stats-title">最近50期 · 号码频率</div>
+      <div class="stats-body" id="freq"></div>
+    </section>
+
+    <section class="recent" id="recentSection">
+      <div class="recent-title">近10期开奖</div>
+      <ul class="recent-list" id="recentList"></ul>
+    </section>
+  </main>
+
+  <footer class="tip">
+    ※ 开奖为独立随机事件，本应用仅基于历史频率生成号码参考，不构成任何投注建议。
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
