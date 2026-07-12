@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="40" fill="#1f2a44"/>
+  <circle cx="64" cy="64" r="28" fill="#ff5a5f"/>
+  <circle cx="128" cy="64" r="28" fill="#ffd166"/>
+  <circle cx="64" cy="128" r="28" fill="#06d6a0"/>
+  <circle cx="128" cy="128" r="28" fill="#4fa6ff"/>
+  <text x="96" y="104" font-size="56" font-weight="700" text-anchor="middle" fill="#fff" font-family="sans-serif">彩</text>
+</svg>
