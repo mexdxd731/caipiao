@@ -1,0 +1,13 @@
+{
+  "name": "彩票预测",
+  "short_name": "彩票预测",
+  "description": "大乐透/排列五/双色球/福彩3D 号码参考生成",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1320",
+  "theme_color": "#1f2a44",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
